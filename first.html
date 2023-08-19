@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js introduction</title>
+</head>
+<body>
+  <!--<h1>Java Script introduction</h1>
+  <h2>welcome to javascript</h2>-->
+  <script>
+  /*var a =10;
+  var b =20;
+  var c =30;
+  console.log(a);
+  alert(b);
+  document.write(c);
+  document.write("<br> the value of a is:",a);
+  document.write("<br>the value of a is:",b);
+  var name="TRIVENI";
+  document.write("<br>my name is",name);
+  name +="  TALLURI";
+  document.write("<br>my full name",name);
+  document.write("<br>length of my name is:"+name.length);
+  var name="rekha"
+   name +=" ramya"
+   name +=",geetha"
+   document.write("<br>"+name);
+   var a=10;
+   document.write("<br> type of a:",typeof(a));
+   var z;
+   document.write("<br>"+z);
+   var y;
+   document.write("<br>"+y);
+   y+="10";
+   document.write("<br>"+b);
+   var arr=['abc','cde','fgh'];
+   document.write("<br>"+arr);
+   document.write("<br>type of the array:  "+typeof(arr));
+   document.write("<br>"+arr[0]);
+   document.write("<br>"+arr[1]);
+   document.write("<br>"+arr[2]);
+   document.write("<br>"+arr[3]);
+   var arr=['abc','def','ghi','jkl'];
+    document.write("<br>"+arr[1]);
+    document.write("<br>"+arr[2]+"<br>");*/
+
+var obj=[{
+  'name':'apple',
+  'color':'red',
+
+},
+{
+  'name':'orange',
+  'color':'orange',
+},
+{
+  'name':'banana',
+  'color':'yellow',
+}]
+  for(var i=0;i<obj.length;i++)
+  {
+    for(var name in obj[i]){
+         document.write(obj[i][name] +" </br>");
+    }
+    //console.log(obj[i].name +" "+ obj[i].color);
+  }
+  for(var i=0;i<obj.length;i++)
+  {
+    for(var key in obj[i]){
+         document.write(obj[i][key] +" </br>");
+    }
+    //console.log(obj[i].name +" "+ obj[i].color);
+  }
+</script>
+</body>
+</html>
